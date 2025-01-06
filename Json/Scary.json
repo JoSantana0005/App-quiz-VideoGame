@@ -1,0 +1,104 @@
+{
+    "questions": [
+      {
+        "question": "Who is the protagonist of 'Resident Evil 2'?",
+        "answers": [
+          "Leon S. Kennedy",
+          "Chris Redfield",
+          "Jill Valentine",
+          "Claire Redfield"
+        ],
+        "correct_answer": "Leon S. Kennedy"
+      },
+      {
+        "question": "In which game do you have to escape from a mental asylum filled with terrifying creatures?",
+        "answers": [
+          "Outlast",
+          "Amnesia: The Dark Descent",
+          "Silent Hill 2",
+          "Fatal Frame"
+        ],
+        "correct_answer": "Outlast"
+      },
+      {
+        "question": "Which horror game takes place in a town called Silent Hill?",
+        "answers": [
+          "Silent Hill",
+          "Resident Evil",
+          "Dead Space",
+          "Alan Wake"
+        ],
+        "correct_answer": "Silent Hill"
+      },
+      {
+        "question": "In which game do you control a boy named 'Daniel' who explores a dark castle?",
+        "answers": [
+          "Amnesia: The Dark Descent",
+          "Little Nightmares",
+          "Layers of Fear",
+          "Soma"
+        ],
+        "correct_answer": "Amnesia: The Dark Descent"
+      },
+      {
+        "question": "What is the main objective in 'Outlast'?",
+        "answers": [
+          "Survive and escape",
+          "Solve puzzles",
+          "Find treasure",
+          "Investigate a crime"
+        ],
+        "correct_answer": "Survive and escape"
+      },
+      {
+        "question": "Which psychological horror game follows the story of a writer named 'Alan Wake'?",
+        "answers": [
+          "Alan Wake",
+          "The Evil Within",
+          "Dead Space",
+          "Resident Evil"
+        ],
+        "correct_answer": "Alan Wake"
+      },
+      {
+        "question": "In which game do you have to face an entity known as 'The Babadook'?",
+        "answers": [
+          "The Babadook: The Game",
+          "Little Nightmares",
+          "Layers of Fear",
+          "The Evil Within"
+        ],
+        "correct_answer": "The Babadook: The Game"
+      },
+      {
+        "question": "What is the name of the game where players must survive in a haunted house?",
+        "answers": [
+          "Phasmophobia",
+          "Dead by Daylight",
+          "Resident Evil 7",
+          "Outlast"
+        ],
+        "correct_answer": "Phasmophobia"
+      },
+      {
+        "question": "Which horror game is based on the 'Saw' movie series?",
+        "answers": [
+          "Saw: The Video Game",
+          "Dead Space",
+          "Resident Evil",
+          "Until Dawn"
+        ],
+        "correct_answer": "Saw: The Video Game"
+      },
+      {
+        "question": "In which game do you control a group of friends who must survive a night in a cabin?",
+        "answers": [
+          "Until Dawn",
+          "The Forest",
+          "Friday the 13th",
+          "Dead by Daylight"
+        ],
+        "correct_answer": "Until Dawn"
+      }
+    ]
+  }

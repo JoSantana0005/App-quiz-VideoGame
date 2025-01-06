@@ -1,0 +1,104 @@
+{
+    "questions": [
+      {
+        "question": "Who is the protagonist of the 'Halo' series?",
+        "answers": [
+          "Master Chief",
+          "Marcus Fenix",
+          "Dante",
+          "Sam Fisher"
+        ],
+        "correct_answer": "Master Chief"
+      },
+      {
+        "question": "In which game do you control an assassin named Ezio Auditore?",
+        "answers": [
+          "Assassin's Creed II",
+          "Hitman",
+          "Tomb Raider",
+          "Far Cry"
+        ],
+        "correct_answer": "Assassin's Creed II"
+      },
+      {
+        "question": "What is the name of the protagonist in 'God of War'?",
+        "answers": [
+          "Kratos",
+          "Lara Croft",
+          "Link",
+          "Cloud Strife"
+        ],
+        "correct_answer": "Kratos"
+      },
+      {
+        "question": "Which game features a character called 'Doom Slayer'?",
+        "answers": [
+          "Doom",
+          "Wolfenstein",
+          "Halo",
+          "Call of Duty"
+        ],
+        "correct_answer": "Doom"
+      },
+      {
+        "question": "In which action game is the city of Rapture located?",
+        "answers": [
+          "Bioshock",
+          "Fallout",
+          "Borderlands",
+          "Half-Life"
+        ],
+        "correct_answer": "Bioshock"
+      },
+      {
+        "question": "What is the main objective in 'Call of Duty'?",
+        "answers": [
+          "Survive in an open world",
+          "Complete military missions",
+          "Solve puzzles",
+          "Build a civilization"
+        ],
+        "correct_answer": "Complete military missions"
+      },
+      {
+        "question": "Which action game is set in a post-apocalyptic world filled with zombies?",
+        "answers": [
+          "The Last of Us",
+          "Resident Evil",
+          "Dead Rising",
+          "Dying Light"
+        ],
+        "correct_answer": "The Last of Us"
+      },
+      {
+        "question": "In which game can you play as a warrior named 'Geralt of Rivia'?",
+        "answers": [
+          "The Witcher",
+          "Dark Souls",
+          "Skyrim",
+          "Assassin's Creed"
+        ],
+        "correct_answer": "The Witcher"
+      },
+      {
+        "question": "What is the name of the game where players fight on a battlefield with unique heroes?",
+        "answers": [
+          "Overwatch",
+          "Fortnite",
+          "PUBG",
+          "Apex Legends"
+        ],
+        "correct_answer": "Overwatch"
+      },
+      {
+        "question": "Which action game focuses on exploring an open world and gathering resources?",
+        "answers": [
+          "Minecraft",
+          "GTA V",
+          "Red Dead Redemption 2",
+          "Assassin's Creed Valhalla"
+        ],
+        "correct_answer": "Minecraft"
+      }
+    ]
+  }
