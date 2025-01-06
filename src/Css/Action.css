@@ -1,3 +1,4 @@
+
 header{
     padding: 5px;
 }
@@ -26,7 +27,25 @@ main .Question{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    gap: 15px;
+    gap: 72px;
+}
+main .Question button{
+    width: 75%;
+    padding: 10px 5px;
+    font-size: 1.2em;
+    background-color: #111;
+    color: #ddaa;
+    outline: none;
+    border: none;
+    letter-spacing: 2px;
+    font-style: italic;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Question button:hover{
+    padding: 12px 5px;
+    box-shadow: 0 0 4px #eee;
 }
 main .Question article{
     display: flex;

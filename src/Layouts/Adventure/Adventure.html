@@ -9,8 +9,48 @@
     <link rel="Icon" href="../../../Public/Imagen/Adventure.svg" type="Imagen/svg">
 </head>
 <body>
+    <!--Header-->
+    <header>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#c3cc00">
+                <path d="M280-80v-160H0l154-240H80l280-400 120 172 120-172 280 400h-74l154 240H680v160H520v-160h-80v160H280Zm389-240h145L659-560h67L600-740l-71 101 111 159h-74l103 160Zm-523 0h428L419-560h67L360-740 234-560h67L146-320Zm0 0h155-67 252-67 155-428Zm523 0H566h74-111 197-67 155-145Zm-149 80h160-160Zm201 0Z"/>
+            </svg>
+            <h1>Action</h1>
+        </div>
+    </header>
     <!--Main-->
-    <main></main>
+    <main>
+        <section class="Question">
+            <article>
+                <span>Question 1 of 10</span>
+                <p id="Question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel obcaecati totam dolor.
+                     Laboriosam nulla necessitatibus 
+                    provident atque corrupti corporis enim quidem nemo maiores, aliquid quo consectetur rem. Consequuntur, modi.</p>
+            </article>
+            <input type="range" id="Range--question" min="1" max="10" value="1">
+        </section>
+        <section class="Answers">
+            <article class="Container-Anwers">
+                <div class="Container">
+                    <div>1</div>
+                    <span id="Anwer">aaa</span>
+                </div>
+                <div class="Container">
+                    <div>2</div>
+                    <span id="Anwer">aaa</span>
+                </div>
+                <div class="Container">
+                    <div>3</div>
+                    <span id="Anwer">aaa</span>
+                </div>
+                <div class="Container">
+                    <div>4</div>
+                    <span id="Anwer">aaa</span>
+                </div>
+            </article>
+            <button type="button">Submit anwer</button>
+        </section>
+    </main>
     <script src="../../Js/Adventure.js"></script>
 </body>
 </html>
