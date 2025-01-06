@@ -106,10 +106,6 @@ main .Answers .Container-Anwers .Container{
     cursor: pointer;
     transition: .1s linear;
 }
-main .Answers .Container-Anwers .Container:hover{
-    background-color: #222;
-}
-
 main .Answers .Container-Anwers .Container div{
     width: 30px;
     height: 30px;
@@ -128,9 +124,7 @@ main .Answers .Container-Anwers .Container span{
     width: 100%;
     color: #ddd;
 }
-main .Answers .Container-Anwers .Container:hover span{
-    color: #ddaa05;
-}
+
 main .Answers button{
     width: 55%;
     padding: 10px 5px;
@@ -149,4 +143,7 @@ main .Answers button{
 main .Answers button:hover{
     padding: 12px 5px;
     box-shadow: 0 0 4px #eee;
+}
+.active{
+    background-color: #456;
 }

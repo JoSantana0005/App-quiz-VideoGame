@@ -1,4 +1,7 @@
-
+// Variables
+const Answers = document.querySelectorAll('.Answer');
+const Question = document.getElementById('Question');
+const ContainerAnswer = document.querySelectorAll('.Container');
 // evento que te devuelve a home
 const Volver = document.getElementById('Volver');
 Volver.addEventListener('click',()=>{
@@ -9,18 +12,6 @@ Volver.addEventListener('click',()=>{
         console.log("No existen tal pagina");
     }
 })
-const quest = document.getElementById('Question');
-// Function para colocar las respuestas en cada celda
-function AnwerSpan(data,index){
-    const Quests = data[index]
-    console.log(Quests)
-    const Answers = document.querySelectorAll('.Answer');
-    Quests.answers.forEach((answer,cont)=>{
-        if(cont <= Answers.length){
-            Answers[cont].innerHTML = answer
-        }
-    })
-}
 // Conexion del Json
 const Action = fetch("../../../JSON/Action.json").then(
     respuesta => {
@@ -37,9 +28,34 @@ const Action = fetch("../../../JSON/Action.json").then(
     }
 ).then(
     data => {
+        // Index para ir aumentado el index de las preguntas
         let index = 0
-        const Questions = data.questions
-        quest.innerHTML = Questions[index].question
-        AnwerSpan(data.questions,index)
+        
+        // Colocar la pregunta en la etiqueta p
+        const ListQuestions = data.questions;
+        Question.innerHTML = ListQuestions[index].question;
+
+        // Parte para colocar las respuestas en las celdas
+        const QuestionActual = ListQuestions[index];
+        console.log(QuestionActual)
+        QuestionActual.answers.forEach((info,cont)=>{
+            if(cont <= Answers.length){
+                Answers[cont].innerHTML = info;
+            }
+        })
+
+        // Parte para seleccionar una pregunta
+        ContainerAnswer.forEach((element) =>{
+            element.addEventListener('click',()=>{
+                if(element.className == 'active'){
+                    element.classList.remove('active');
+                }else{
+                    element.classList.toggle('active');
+                }
+            })
+        })
+
+        
+
     }
 );
