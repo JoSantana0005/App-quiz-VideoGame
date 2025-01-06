@@ -8,3 +8,22 @@ Volver.addEventListener('click',()=>{
         console.log("No existen tal pagina");
     }
 })
+// Conexion al Json
+const Json_Adventure = fetch('../../../JSON/Adventure.json').then(
+    respuesta =>{
+        try{
+            if(respuesta.ok){
+                console.log("Se conecto al Json exitosamente");
+                return respuesta.json();
+            }else{
+                console.log("No se conecto al json");
+            }
+        }catch(e){
+            console.log(`Hubo un error: ${e}`)
+        }
+    }
+).then(
+    data =>{
+        
+    }
+)
