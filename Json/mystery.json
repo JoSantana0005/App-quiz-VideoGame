@@ -1,0 +1,104 @@
+{
+    "questions": [
+      {
+        "question": "In which game do you take on the role of a detective named 'Hercule Poirot'?",
+        "answers": [
+          "Agatha Christie: The ABC Murders",
+          "L.A. Noire",
+          "Sherlock Holmes: Crimes and Punishments",
+          "The Vanishing of Ethan Carter"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the main objective in 'The Return of the Obra Dinn'?",
+        "answers": [
+          "Solve a murder mystery",
+          "Find a lost treasure",
+          "Escape from an island",
+          "Investigate a shipwreck"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which game focuses on investigating a murder in a mansion?",
+        "answers": [
+          "Clue: The Classic Mystery Game",
+          "Murdered: Soul Suspect",
+          "The Last Express",
+          "The Wolf Among Us"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "question": "In which game do you control a journalist named 'Ethan Carter'?",
+        "answers": [
+          "The Vanishing of Ethan Carter",
+          "Gone Home",
+          "What Remains of Edith Finch",
+          "Firewatch"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the name of the game where you must solve the mystery of a vanished town?",
+        "answers": [
+          "Oxenfree",
+          "Night in the Woods",
+          "The Silent Age",
+          "The Last Door"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which mystery game is based on the works of Edgar Allan Poe?",
+        "answers": [
+          "The Raven: Legacy of a Master Thief",
+          "The Last Express",
+          "Sherlock Holmes: The Devil's Daughter",
+          "The Black Mirror"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "In which game do you have to solve the mystery of a murder on a train?",
+        "answers": [
+          "Murder on the Orient Express",
+          "Agatha Christie: The ABC Murders",
+          "The Last Express",
+          "Train Valley"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the main objective in 'Her Story'?",
+        "answers": [
+          "Solve a murder case",
+          "Escape from a place",
+          "Investigate a robbery",
+          "Find a treasure"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which mystery game takes place on a deserted island and has horror elements?",
+        "answers": [
+          "The Witness",
+          "The Secret of Monkey Island",
+          "The Forest",
+          "Dead Island"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "question": "In which game do you control a detective named 'Sherlock Holmes'?",
+        "answers": [
+          "Sherlock Holmes: Crimes and Punishments",
+          "L.A. Noire",
+          "The Wolf Among Us",
+          "Danganronpa"
+        ],
+        "correct_answer": 0
+      }
+    ]
+  }

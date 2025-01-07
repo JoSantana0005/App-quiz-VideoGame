@@ -3,6 +3,7 @@
 <table>
   <td align="justify" width=40%>
     <h3>What is it about?</h3>
+    <hr>
   Basically it will be a game in which 10 questions from a video game genre will be asked, be it action, mystery, adventure, fear or strategy. If you answer correctly, your score will       
   increase until you finish the questions. You will be able to see your result at the end of the game. maybe
     <hr>

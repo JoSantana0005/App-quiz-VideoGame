@@ -1,0 +1,104 @@
+{
+    "questions": [
+      {
+        "question": "Who is the protagonist of 'The Legend of Zelda'?",
+        "answers": [
+          "Link",
+          "Zelda",
+          "Ganon",
+          "Navi"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "In which game do you explore the island of 'Myst'?",
+        "answers": [
+          "Myst",
+          "Riven",
+          "The Witness",
+          "Journey"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the main objective in 'Uncharted: Drake's Fortune'?",
+        "answers": [
+          "Find a lost treasure",
+          "Save a princess",
+          "Escape from a maze",
+          "Solve a mystery"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which game features a character named 'Lara Croft'?",
+        "answers": [
+          "Tomb Raider",
+          "Assassin's Creed",
+          "Prince of Persia",
+          "God of War"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "In which adventure game is the world of 'Hyrule' found?",
+        "answers": [
+          "The Legend of Zelda",
+          "Final Fantasy",
+          "Dark Souls",
+          "Skyrim"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the name of the protagonist in 'The Last Guardian'?",
+        "answers": [
+          "Trico",
+          "Ico",
+          "Shadows of the Colossus",
+          "Yorda"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which adventure game focuses on exploring an open world and solving puzzles?",
+        "answers": [
+          "The Witness",
+          "Firewatch",
+          "Life is Strange",
+          "Grim Fandango"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "In which game do you control a young girl named 'Max Caulfield'?",
+        "answers": [
+          "Life is Strange",
+          "The Walking Dead",
+          "Heavy Rain",
+          "Beyond: Two Souls"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the main objective in 'Grim Fandango'?",
+        "answers": [
+          "Escape from the underworld",
+          "Solve a mystery",
+          "Find a treasure",
+          "Save a friend"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which adventure game takes place in a fantasy world filled with magical creatures?",
+        "answers": [
+          "Ni no Kuni",
+          "Final Fantasy",
+          "Dark Souls",
+          "The Witcher"
+        ],
+        "correct_answer": 0
+      }
+    ]
+  }

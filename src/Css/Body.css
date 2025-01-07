@@ -1,0 +1,15 @@
+:root{
+    --FontColor: #b6bfc8;
+    --BorderColor: #c7bb00;
+}
+body{
+    background: linear-gradient(to right, #000000, #120000);
+    overflow: hidden;
+    color: var(--FontColor);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+}

@@ -1,0 +1,104 @@
+{
+    "questions": [
+      {
+        "question": "What is the main objective in 'StarCraft'?",
+        "answers": [
+          "Build a civilization",
+          "Dominate space",
+          "Destroy enemies",
+          "Gather resources"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "question": "In which strategy game do you manage a city and its resources?",
+        "answers": [
+          "SimCity",
+          "Civilization",
+          "Age of Empires",
+          "Total War"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the name of the turn-based strategy game where players control civilizations throughout history?",
+        "answers": [
+          "Civilization",
+          "Warcraft",
+          "Command & Conquer",
+          "Heroes of Might and Magic"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which real-time strategy game is set in a fantasy world and features races like orcs and humans?",
+        "answers": [
+          "Warcraft III",
+          "StarCraft II",
+          "Age of Empires II",
+          "Total War: Warhammer"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "In which game do you build and manage an empire in ancient times?",
+        "answers": [
+          "Age of Empires",
+          "Civilization",
+          "Rise of Nations",
+          "Anno 1800"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the main objective in 'Total War'?",
+        "answers": [
+          "Manage resources",
+          "Fight epic battles",
+          "Build cities",
+          "Explore the world"
+        ],
+        "correct_answer": 1
+      },
+      {
+        "question": "Which strategy game focuses on deck building and turn-based battles?",
+        "answers": [
+          "Slay the Spire",
+          "Hearthstone",
+          "Magic: The Gathering Arena",
+          "Gwent"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "In which strategy game do you manage a colony on an alien planet?",
+        "answers": [
+          "Surviving Mars",
+          "Farming Simulator",
+          "Anno 2205",
+          "Planetbase"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "What is the name of the real-time strategy game based on World War II?",
+        "answers": [
+          "Company of Heroes",
+          "Call of Duty",
+          "Battlefield",
+          "Medal of Honor"
+        ],
+        "correct_answer": 0
+      },
+      {
+        "question": "Which strategy game focuses on resource management and base building in a survival environment?",
+        "answers": [
+          "Factorio",
+          "Minecraft",
+          "Terraria",
+          "Don't Starve"
+        ],
+        "correct_answer": 0
+      }
+    ]
+  }
