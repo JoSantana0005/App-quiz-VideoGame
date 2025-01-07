@@ -1,5 +1,4 @@
 
-
 header{
     padding: 5px;
 }
@@ -163,6 +162,9 @@ main .Answers button:hover{
 .disabled{
     opacity: 0.5;
     cursor: not-allowed;
+}
+.selected{
+    background-color: #456;
 }
 /*Panel de results*/
 main .Results{

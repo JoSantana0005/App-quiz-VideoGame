@@ -163,6 +163,9 @@ main .Answers button:hover{
     opacity: 0.5;
     cursor: not-allowed;
 }
+.selected{
+    background-color: #456;
+}
 /*Panel de results*/
 main .Results{
     box-shadow: 0 0 10px #222;

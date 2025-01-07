@@ -33,39 +33,10 @@ Volver.addEventListener('click',()=>{
 function AnswerSpan(data,index){
     const QuestionActual = data[index];
     QuestionActual.answers.forEach((answer,cont) =>{
-        if(cont <= Answers.length){
+        if(cont < Answers.length){
             Answers[cont].innerHTML = answer
-            // Almaceno la respuesta correcta en data-index
-            Answers[cont].setAttribute('data-index',cont);
             console.log(Answers[cont].innerHTML)
         }
-    })
-}
-// Function para validar la respuesta correcta
-
-function CorrectAnswer(correctAnswer){
-    ContainerAnswer.forEach((element) =>{
-        element.addEventListener('click',()=>{
-            answerClick = true;
-            const SelectContainer = parseInt(element.getAttribute('data-index'));
-            if(SelectContainer == correctAnswer){
-                alert('correct answer')
-                element.classList.toggle('correct');
-                correct++;
-                
-            }else{
-                alert('incorrect answer');
-                element.classList.toggle('incorrect');
-                incorrect++;
-            }
-            // Desabilito las demas respuestas
-            ContainerAnswer.forEach((el)=>{
-                if(el !== element){
-                    el.classList.add('disabled')
-                    el.computedStyleMap.pointerEvents = 'none';
-                }
-            })
-        })
     })
 }
 // Function para quitar los estilos
@@ -75,6 +46,7 @@ function removestyle(){
         element.classList.remove('correct');
         element.classList.remove('incorrect');
         element.classList.remove('disabled');
+        element.classList.remove('selected')
     })
 }
 // Function para colocar el panel del resultado del quiz
@@ -120,45 +92,64 @@ const Action = fetch("../../../JSON/Scary.json").then(
     }
 ).then(
     data => {
-        // Index para ir aumentado el index de las preguntas
-        let index = 0
-        
-        // Colocar la pregunta en la etiqueta p
-        const ListQuestions = data.questions;
-        Question.innerHTML = ListQuestions[index].question;
-
-        // Parte para colocar las respuestas en las celdas
-        AnswerSpan(ListQuestions,index);
-
-        // Parte para seleccionar una pregunta
-        CorrectAnswer(ListQuestions[index].correct_answer);
-        // Evento para el boton de la respuesta
-        SubmitAnswer.addEventListener('click',()=>{
-            
-            if(!answerClick){
-                alert('please select a answers');
-                return;
-            }
-            
-            index++;
-            contaQuestion++;
-            rangeInput++;
-            
-            // Limpio los classList
-            removestyle();
-            
-            // Aumentamos el contador del span donde esta 1 of 10
-            if(contaQuestion <= 10 && rangeInput <= 10 && index < ListQuestions.length){
-    
-                contQuestions.textContent = `Question ${contaQuestion} of 10`;
-                RangeInput.value = rangeInput;
-                Question.innerHTML = ListQuestions[index].question
-                AnswerSpan(ListQuestions,index);
-            
-            }else{
-                MainContainer.innerHTML = '';
-                PanelResult();
-            }
-        })
-    }
-);
+         // Index para ir aumentando el index de las preguntas
+         let index = 0;
+         // Colocar la pregunta en la etiqueta p
+         const ListQuestions = data.questions;
+         Question.innerHTML = ListQuestions[index].question;
+     
+         // Parte para colocar las respuestas en las celdas
+         AnswerSpan(ListQuestions, index);
+         
+         // Variable para almacenar la respuesta seleccionada
+         let selectedAnswerIndex = null;
+     
+         // Evento para el contenedor de respuestas
+         ContainerAnswer.forEach((element, cont) => {
+             element.addEventListener('click', () => {
+                 selectedAnswerIndex = cont;  
+                 element.classList.add('selected');
+             });
+         });
+     
+         // Evento para el botón de la respuesta
+         SubmitAnswer.addEventListener('click', () => {
+             if (selectedAnswerIndex === null) {
+                 alert('Please select an answer');
+                 return;
+             }
+     
+             // Verifica si la respuesta seleccionada es correcta
+             if (selectedAnswerIndex === ListQuestions[index].correct_answer) {
+                 alert('Correct answer');
+                 correct++;
+             } else {
+                 alert('Incorrect answer');
+                 incorrect++;
+             }
+     
+             // Incrementa el índice y otros contadores
+             index++;
+             contaQuestion++;
+             rangeInput++;
+     
+             // Limpio los classList
+             removestyle();
+     
+             // Aumentamos el contador del span donde está 1 of 10
+             if (contaQuestion <= 10 && rangeInput <= 10 && index < ListQuestions.length) {
+                 contQuestions.textContent = `Question ${contaQuestion} of 10`;
+                 RangeInput.value = rangeInput;
+                 Question.innerHTML = ListQuestions[index].question;
+     
+                 // Llenar las respuestas para la nueva pregunta
+                 AnswerSpan(ListQuestions, index);
+     
+             } else {
+                 MainContainer.innerHTML = '';
+                 PanelResult();
+             }
+     
+             selectedAnswerIndex = null; 
+         });
+})
