@@ -23,13 +23,13 @@
     <main>
         <section class="Question">
             <article>
-                <span>Question 1 of 10</span>
+                <span id="Cont">Question 1 of 10</span>
                 <p id="Question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel obcaecati totam dolor.
                      Laboriosam nulla necessitatibus 
                     provident atque corrupti corporis enim quidem nemo maiores, aliquid quo consectetur rem. Consequuntur, modi.
                 </p>
             </article>
-            <input type="range" id="Range--question" min="1" max="10" value="1">
+            <input type="range" id="Range--question" min="1" max="10" value="1" disabled>
             <button id="Volver">Back in the start</button>
         </section>
         <section class="Answers">
@@ -51,7 +51,7 @@
                     <span class="Answer">aaa</span>
                 </div>
             </article>
-            <button type="button">Submit anwer</button>
+            <button type="button" id="SubmitAnswer">Submit anwer</button>
         </section>
     </main>
     <script src="../../Js/Action.js"></script>

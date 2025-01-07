@@ -8,7 +8,7 @@
           "Dante",
           "Sam Fisher"
         ],
-        "correct_answer": "Master Chief"
+        "correct_answer": 0
       },
       {
         "question": "In which game do you control an assassin named Ezio Auditore?",
@@ -18,7 +18,7 @@
           "Tomb Raider",
           "Far Cry"
         ],
-        "correct_answer": "Assassin's Creed II"
+        "correct_answer": 0
       },
       {
         "question": "What is the name of the protagonist in 'God of War'?",
@@ -28,7 +28,7 @@
           "Link",
           "Cloud Strife"
         ],
-        "correct_answer": "Kratos"
+        "correct_answer": 0
       },
       {
         "question": "Which game features a character called 'Doom Slayer'?",
@@ -38,7 +38,7 @@
           "Halo",
           "Call of Duty"
         ],
-        "correct_answer": "Doom"
+        "correct_answer": 0
       },
       {
         "question": "In which action game is the city of Rapture located?",
@@ -48,7 +48,7 @@
           "Borderlands",
           "Half-Life"
         ],
-        "correct_answer": "Bioshock"
+        "correct_answer": 0
       },
       {
         "question": "What is the main objective in 'Call of Duty'?",
@@ -58,7 +58,7 @@
           "Solve puzzles",
           "Build a civilization"
         ],
-        "correct_answer": "Complete military missions"
+        "correct_answer": 1
       },
       {
         "question": "Which action game is set in a post-apocalyptic world filled with zombies?",
@@ -68,7 +68,7 @@
           "Dead Rising",
           "Dying Light"
         ],
-        "correct_answer": "The Last of Us"
+        "correct_answer": 0
       },
       {
         "question": "In which game can you play as a warrior named 'Geralt of Rivia'?",
@@ -78,7 +78,7 @@
           "Skyrim",
           "Assassin's Creed"
         ],
-        "correct_answer": "The Witcher"
+        "correct_answer": 0
       },
       {
         "question": "What is the name of the game where players fight on a battlefield with unique heroes?",
@@ -88,7 +88,7 @@
           "PUBG",
           "Apex Legends"
         ],
-        "correct_answer": "Overwatch"
+        "correct_answer": 0
       },
       {
         "question": "Which action game focuses on exploring an open world and gathering resources?",
@@ -98,7 +98,7 @@
           "Red Dead Redemption 2",
           "Assassin's Creed Valhalla"
         ],
-        "correct_answer": "Minecraft"
+        "correct_answer": 0
       }
     ]
   }
