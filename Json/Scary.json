@@ -8,7 +8,7 @@
           "Jill Valentine",
           "Claire Redfield"
         ],
-        "correct_answer": "Leon S. Kennedy"
+        "correct_answer": 0
       },
       {
         "question": "In which game do you have to escape from a mental asylum filled with terrifying creatures?",
@@ -18,7 +18,7 @@
           "Silent Hill 2",
           "Fatal Frame"
         ],
-        "correct_answer": "Outlast"
+        "correct_answer": 0
       },
       {
         "question": "Which horror game takes place in a town called Silent Hill?",
@@ -28,7 +28,7 @@
           "Dead Space",
           "Alan Wake"
         ],
-        "correct_answer": "Silent Hill"
+        "correct_answer": 0
       },
       {
         "question": "In which game do you control a boy named 'Daniel' who explores a dark castle?",
@@ -38,7 +38,7 @@
           "Layers of Fear",
           "Soma"
         ],
-        "correct_answer": "Amnesia: The Dark Descent"
+        "correct_answer": 0
       },
       {
         "question": "What is the main objective in 'Outlast'?",
@@ -48,7 +48,7 @@
           "Find treasure",
           "Investigate a crime"
         ],
-        "correct_answer": "Survive and escape"
+        "correct_answer": 0
       },
       {
         "question": "Which psychological horror game follows the story of a writer named 'Alan Wake'?",
@@ -58,7 +58,7 @@
           "Dead Space",
           "Resident Evil"
         ],
-        "correct_answer": "Alan Wake"
+        "correct_answer": 0
       },
       {
         "question": "In which game do you have to face an entity known as 'The Babadook'?",
@@ -68,7 +68,7 @@
           "Layers of Fear",
           "The Evil Within"
         ],
-        "correct_answer": "The Babadook: The Game"
+        "correct_answer": 0
       },
       {
         "question": "What is the name of the game where players must survive in a haunted house?",
@@ -78,7 +78,7 @@
           "Resident Evil 7",
           "Outlast"
         ],
-        "correct_answer": "Phasmophobia"
+        "correct_answer": 0
       },
       {
         "question": "Which horror game is based on the 'Saw' movie series?",
@@ -88,7 +88,7 @@
           "Resident Evil",
           "Until Dawn"
         ],
-        "correct_answer": "Saw: The Video Game"
+        "correct_answer": 0
       },
       {
         "question": "In which game do you control a group of friends who must survive a night in a cabin?",
@@ -98,7 +98,7 @@
           "Friday the 13th",
           "Dead by Daylight"
         ],
-        "correct_answer": "Until Dawn"
+        "correct_answer": 0
       }
     ]
   }

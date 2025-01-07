@@ -8,7 +8,7 @@
           "Sherlock Holmes: Crimes and Punishments",
           "The Vanishing of Ethan Carter"
         ],
-        "correct_answer": "Agatha Christie: The ABC Murders"
+        "correct_answer": 0
       },
       {
         "question": "What is the main objective in 'The Return of the Obra Dinn'?",
@@ -18,7 +18,7 @@
           "Escape from an island",
           "Investigate a shipwreck"
         ],
-        "correct_answer": "Solve a murder mystery"
+        "correct_answer": 0
       },
       {
         "question": "Which game focuses on investigating a murder in a mansion?",
@@ -28,7 +28,7 @@
           "The Last Express",
           "The Wolf Among Us"
         ],
-        "correct_answer": "Murdered: Soul Suspect"
+        "correct_answer": 1
       },
       {
         "question": "In which game do you control a journalist named 'Ethan Carter'?",
@@ -38,7 +38,7 @@
           "What Remains of Edith Finch",
           "Firewatch"
         ],
-        "correct_answer": "The Vanishing of Ethan Carter"
+        "correct_answer": 0
       },
       {
         "question": "What is the name of the game where you must solve the mystery of a vanished town?",
@@ -48,7 +48,7 @@
           "The Silent Age",
           "The Last Door"
         ],
-        "correct_answer": "Oxenfree"
+        "correct_answer": 0
       },
       {
         "question": "Which mystery game is based on the works of Edgar Allan Poe?",
@@ -58,7 +58,7 @@
           "Sherlock Holmes: The Devil's Daughter",
           "The Black Mirror"
         ],
-        "correct_answer": "The Raven: Legacy of a Master Thief"
+        "correct_answer": 0
       },
       {
         "question": "In which game do you have to solve the mystery of a murder on a train?",
@@ -68,7 +68,7 @@
           "The Last Express",
           "Train Valley"
         ],
-        "correct_answer": "Murder on the Orient Express"
+        "correct_answer": 0
       },
       {
         "question": "What is the main objective in 'Her Story'?",
@@ -78,7 +78,7 @@
           "Investigate a robbery",
           "Find a treasure"
         ],
-        "correct_answer": "Solve a murder case"
+        "correct_answer": 0
       },
       {
         "question": "Which mystery game takes place on a deserted island and has horror elements?",
@@ -88,7 +88,7 @@
           "The Forest",
           "Dead Island"
         ],
-        "correct_answer": "The Forest"
+        "correct_answer": 2
       },
       {
         "question": "In which game do you control a detective named 'Sherlock Holmes'?",
@@ -98,7 +98,7 @@
           "The Wolf Among Us",
           "Danganronpa"
         ],
-        "correct_answer": "Sherlock Holmes: Crimes and Punishments"
+        "correct_answer": 0
       }
     ]
   }

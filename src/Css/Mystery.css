@@ -96,17 +96,14 @@ main .Answers .Container-Anwers{
 main .Answers .Container-Anwers .Container{
     padding: 10px;
     height: 60px;
-    border-radius: 15px;
     margin: 15px;
     display: flex;
     align-items: center;
     gap: 35px;
-    border-top: 2px solid #aaa;
-    border-bottom: 2px solid #222;
+    transition: .1s linear;
 }
 main .Answers .Container-Anwers .Container div{
     width: 30px;
-    
     height: 30px;
     display: flex;
     align-items: center;
@@ -121,8 +118,21 @@ main .Answers .Container-Anwers .Container span{
     letter-spacing: 2px;
     font-weight: 500;
     width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
     color: #ddd;
+    border-radius: 15px;
+    padding: 30px 10px;
+    border-top: 2px solid #aaa;
+    border-bottom: 2px solid #222;
+    cursor: pointer;
+    transition: .1s linear;
 }
+main .Answers .Container-Anwers .Container span:hover{
+    background-color: #456;
+}
+
 main .Answers button{
     width: 55%;
     padding: 10px 5px;
@@ -140,5 +150,79 @@ main .Answers button{
 }
 main .Answers button:hover{
     padding: 12px 5px;
+    box-shadow: 0 0 4px #eee;
+}
+
+.correct{
+    background-color: #050;
+}
+.incorrect{
+    background-color: #500;
+}
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+/*Panel de results*/
+main .Results{
+    box-shadow: 0 0 10px #222;
+    width: 25%;
+    height: 460px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 3px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+
+}
+main .Results div{
+    width: 100%;
+    height: 35%;
+    padding: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    border-bottom: 1px solid #aaa;
+    justify-content: space-evenly;
+}
+main .Results div p{
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+main .Results div span{
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 500;
+    font-style: italic;
+}
+main .Results .Buttons{
+    height: 25%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+main .Results .Buttons button{
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 0.9em;
+    background-color: #111;
+    color: #ddaa;
+    outline: none;
+    border: none;
+    letter-spacing: 2px;
+    font-style: italic;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Results .Buttons button:hover{
+    padding: 11px 5px;
     box-shadow: 0 0 4px #eee;
 }

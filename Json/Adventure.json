@@ -8,7 +8,7 @@
           "Ganon",
           "Navi"
         ],
-        "correct_answer": "Link"
+        "correct_answer": 0
       },
       {
         "question": "In which game do you explore the island of 'Myst'?",
@@ -18,7 +18,7 @@
           "The Witness",
           "Journey"
         ],
-        "correct_answer": "Myst"
+        "correct_answer": 0
       },
       {
         "question": "What is the main objective in 'Uncharted: Drake's Fortune'?",
@@ -28,7 +28,7 @@
           "Escape from a maze",
           "Solve a mystery"
         ],
-        "correct_answer": "Find a lost treasure"
+        "correct_answer": 0
       },
       {
         "question": "Which game features a character named 'Lara Croft'?",
@@ -38,7 +38,7 @@
           "Prince of Persia",
           "God of War"
         ],
-        "correct_answer": "Tomb Raider"
+        "correct_answer": 0
       },
       {
         "question": "In which adventure game is the world of 'Hyrule' found?",
@@ -48,7 +48,7 @@
           "Dark Souls",
           "Skyrim"
         ],
-        "correct_answer": "The Legend of Zelda"
+        "correct_answer": 0
       },
       {
         "question": "What is the name of the protagonist in 'The Last Guardian'?",
@@ -58,7 +58,7 @@
           "Shadows of the Colossus",
           "Yorda"
         ],
-        "correct_answer": "Trico"
+        "correct_answer": 0
       },
       {
         "question": "Which adventure game focuses on exploring an open world and solving puzzles?",
@@ -68,7 +68,7 @@
           "Life is Strange",
           "Grim Fandango"
         ],
-        "correct_answer": "The Witness"
+        "correct_answer": 0
       },
       {
         "question": "In which game do you control a young girl named 'Max Caulfield'?",
@@ -78,7 +78,7 @@
           "Heavy Rain",
           "Beyond: Two Souls"
         ],
-        "correct_answer": "Life is Strange"
+        "correct_answer": 0
       },
       {
         "question": "What is the main objective in 'Grim Fandango'?",
@@ -88,7 +88,7 @@
           "Find a treasure",
           "Save a friend"
         ],
-        "correct_answer": "Escape from the underworld"
+        "correct_answer": 0
       },
       {
         "question": "Which adventure game takes place in a fantasy world filled with magical creatures?",
@@ -98,7 +98,7 @@
           "Dark Souls",
           "The Witcher"
         ],
-        "correct_answer": "Ni no Kuni"
+        "correct_answer": 0
       }
     ]
   }
