@@ -10,7 +10,7 @@ let rangeInput = 1;
 let correct = 0;
 let incorrect = 0;
 let answerClick = false;
-const enlace = '../../../index.html';
+const enlace = '../../index.html';
 const MainContainer = document.getElementsByClassName('MainContainer')[0];
 const Volver = document.getElementById('Volver');
 
@@ -77,7 +77,7 @@ function PanelResult(){
     })
 }
 // Conexion del Json
-const Action = fetch("../../../JSON/mystery.json").then(
+const Action = fetch("../../JSON/Adventure.json").then(
     respuesta => {
         try{
             if(respuesta.ok){
