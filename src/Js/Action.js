@@ -160,8 +160,5 @@ const Action = fetch("../../../JSON/Action.json").then(
                 PanelResult();
             }
         })
-
-        
-
     }
 );
