@@ -108,7 +108,11 @@ const Action = fetch("../../../JSON/Action.json").then(
          ContainerAnswer.forEach((element, cont) => {
              element.addEventListener('click', () => {
                  selectedAnswerIndex = cont;  
-                 element.classList.add('selected');
+                 if(element.className == 'selected'){
+                    element.classList.remove('selected');
+                 }else{
+                    element.classList.toggle('selected');
+                 }
              });
          });
      

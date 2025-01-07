@@ -129,9 +129,7 @@ main .Answers .Container-Anwers .Container span{
     cursor: pointer;
     transition: .1s linear;
 }
-main .Answers .Container-Anwers .Container span:hover{
-    background-color: #456;
-}
+
 
 main .Answers button{
     width: 55%;
