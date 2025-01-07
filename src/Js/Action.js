@@ -10,18 +10,26 @@ let rangeInput = 1;
 let correct = 0;
 let incorrect = 0;
 let answerClick = false;
-const MainContainer = document.getElementsByTagName('main');
-// evento que te devuelve a home
+const enlace = '../../../index.html';
+const MainContainer = document.getElementsByClassName('MainContainer')[0];
 const Volver = document.getElementById('Volver');
+
+// Function para volver a la pagina de inicio
+
+function RouteHome(enlace){
+    window.location.href = enlace;
+}
+// evento que te devuelve a home
+
 Volver.addEventListener('click',()=>{
-    const enlace = '../../../index.html';
     if(Volver){
-        window.location.href = enlace
+        RouteHome(enlace);
     }else{
         console.log("No existen tal pagina");
     }
 })
 // Function para colocar las respuestas en los contenedores
+
 function AnswerSpan(data,index){
     const QuestionActual = data[index];
     QuestionActual.answers.forEach((answer,cont) =>{
@@ -34,6 +42,7 @@ function AnswerSpan(data,index){
     })
 }
 // Function para validar la respuesta correcta
+
 function CorrectAnswer(correctAnswer){
     ContainerAnswer.forEach((element) =>{
         element.addEventListener('click',()=>{
@@ -60,6 +69,7 @@ function CorrectAnswer(correctAnswer){
     })
 }
 // Function para quitar los estilos
+
 function removestyle(){
     ContainerAnswer.forEach((element) =>{
         element.classList.remove('correct');
@@ -69,7 +79,30 @@ function removestyle(){
 }
 // Function para colocar el panel del resultado del quiz
 function PanelResult(){
-    MainContainer.innerHTML = ``
+    
+    MainContainer.innerHTML = `<section class="Results">
+        <div class="Correct">
+            <p>Your correct questions:</p>
+            <span>${correct}</span>
+        </div>
+        <div class="Incorrect">
+            <p>Your incorrect questions:</p>
+            <span>${incorrect}</span>
+        </div>
+        <div class="Buttons">
+            <button id="Back--Home">Back in the start</button>
+        </div>
+    </section>`
+    
+    // Funcion para volver a la pagina de inicio
+    const Back_home = document.getElementById('Back--Home');
+    Back_home.addEventListener('click',()=>{
+        if(Back_home){
+            RouteHome(enlace);
+        }else{
+            console.log("No existen tal boton");
+        }
+    })
 }
 // Conexion del Json
 const Action = fetch("../../../JSON/Action.json").then(
@@ -115,7 +148,7 @@ const Action = fetch("../../../JSON/Action.json").then(
             removestyle();
             
             // Aumentamos el contador del span donde esta 1 of 10
-            if(contaQuestion <= 10 && rangeInput <= 10 && index <= 10){
+            if(contaQuestion <= 10 && rangeInput <= 10 && index < ListQuestions.length){
     
                 contQuestions.textContent = `Question ${contaQuestion} of 10`;
                 RangeInput.value = rangeInput;
@@ -124,6 +157,7 @@ const Action = fetch("../../../JSON/Action.json").then(
             
             }else{
                 MainContainer.innerHTML = '';
+                PanelResult();
             }
         })
 
