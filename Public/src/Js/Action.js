@@ -117,9 +117,9 @@ const Action = fetch("../../../JSON/Action.json").then(
                             element.classList.remove('selected');
                         })
                     }
-                 }
-                    selectedAnswerIndex = cont;
-                    element.classList.toggle('selected');
+                }
+                selectedAnswerIndex = cont;
+                element.classList.toggle('selected');
              });
          });
          // Evento para el botón de la respuesta
