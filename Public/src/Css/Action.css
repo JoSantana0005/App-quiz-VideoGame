@@ -272,12 +272,14 @@ main .Results .Buttons button:hover{
     main .Answers{
         width: 100%;
     }
-    main .Container-Anwers .Container{
+    main .Answers .Container-Anwers .Container{
         width: 95%;
         align-items: center;
+        justify-content: center;
+        margin: 7px;
     }
     main .Answers .Container-Anwers .Container span{
-        font-size: 1.3em;
+        font-size: 1.1em;
         letter-spacing: 2px;
         max-width: 300px;
         white-space: wrap;
