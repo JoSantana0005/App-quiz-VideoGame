@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App-Quiz || Aventura</title>
+    <link rel="stylesheet" href="../../Css/Adventure.css">
+    <link rel="stylesheet" href="../../../Public/font/Font.css">
+    <link rel="stylesheet" href="../../Css/Body.css">
+    <link rel="Icon" href="../../../Imagen/Adventure.svg" type="image/svg+xml">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="44px" viewBox="0 -960 960 960" width="44px" fill="#c3cc00">
+                <path d="M280-80v-160H0l154-240H80l280-400 120 172 120-172 280 400h-74l154 240H680v160H520v-160h-80v160H280Zm389-240h145L659-560h67L600-740l-71 101 111 159h-74l103 160Zm-523 0h428L419-560h67L360-740 234-560h67L146-320Zm0 0h155-67 252-67 155-428Zm523 0H566h74-111 197-67 155-145Zm-149 80h160-160Zm201 0Z"/>
+            </svg>
+            <h1>Aventura</h1>
+        </div>
+    </header>
+    <!--Main-->
+    <main class="MainContainer">
+        <section class="Question">
+            <article>
+                <span id="Cont">Pregunta 1 de 10</span>
+                <p id="Question"></p>
+            </article>
+            <input type="range" id="Range--question" min="1" max="10" value="1" disabled>
+            <button id="Volver">Regresar al principio</button>
+        </section>
+        <section class="Answers">
+            <article class="Container-Anwers">
+                <div class="Container">
+                    <div>1</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>2</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>3</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>4</div>
+                    <span class="Answer"></span>
+                </div>
+            </article>
+            <button type="button" id="SubmitAnswer">Enviar Respuesta</button>
+        </section>
+    </main>
+    <script src="../../Js/Spanish/Adventure-es.js"></script>
+</body>
+</html>

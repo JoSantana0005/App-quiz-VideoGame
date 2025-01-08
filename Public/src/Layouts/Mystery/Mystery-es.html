@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App-Quiz || Misterio</title>
+    <link rel="stylesheet" href="../../Css/Mystery.css">
+    <link rel="stylesheet" href="../../../Public/font/Font.css">
+    <link rel="stylesheet" href="../../Css/Body.css">
+    <link rel="Icon" href="../../../Imagen/Mystery.svg" type="image/svg+xml">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="44px" viewBox="0 -960 960 960" width="44px" fill="#c3cc00">
+                <path d="M424-320q0-81 14.5-116.5T500-514q41-36 62.5-62.5T584-637q0-41-27.5-68T480-732q-51 0-77.5 31T365-638l-103-44q21-64 77-111t141-47q105 0 161.5 58.5T698-641q0 50-21.5 85.5T609-475q-49 47-59.5 71.5T539-320H424Zm56 240q-33 0-56.5-23.5T400-160q0-33 23.5-56.5T480-240q33 0 56.5 23.5T560-160q0 33-23.5 56.5T480-80Z"/>
+            </svg>
+            <h1>Misterio</h1>
+        </div>
+    </header>
+    <!--Main-->
+    <main class="MainContainer">
+        <section class="Question">
+            <article>
+                <span id="Cont">Pregunta 1 de 10</span>
+                <p id="Question"></p>
+            </article>
+            <input type="range" id="Range--question" min="1" max="10" value="1" disabled>
+            <button id="Volver">Regresar al principio</button>
+        </section>
+        <section class="Answers">
+            <article class="Container-Anwers">
+                <div class="Container">
+                    <div>1</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>2</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>3</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>4</div>
+                    <span class="Answer"></span>
+                </div>
+            </article>
+            <button type="button" id="SubmitAnswer">Envia Respuesta</button>
+        </section>
+    </main>
+    <script src="../../Js/Spanish/Mystery-es.js"></script>
+</body>
+</html>

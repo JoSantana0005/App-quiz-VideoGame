@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App-Quiz || Miedo</title>
+    <link rel="stylesheet" href="../../Css/Scary.css">
+    <link rel="stylesheet" href="../../../Public/font/Font.css">
+    <link rel="stylesheet" href="../../Css/Body.css">
+    <link rel="Icon" href="../../../Imagen/Scary.svg" type="image/svg+xml">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="44px" viewBox="0 -960 960 960" width="44px" fill="#c3cc00">
+                <path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/>
+            </svg>
+            <h1>Miedo</h1>
+        </div>
+    </header>
+    <!--Main-->
+    <main class="MainContainer">
+        <section class="Question">
+            <article>
+                <span id="Cont">Pregunta 1 de 10</span>
+                <p id="Question"></p>
+            </article>
+            <input type="range" id="Range--question" min="1" max="10" value="1" disabled>
+            <button id="Volver">Regresar al principio</button>
+        </section>
+        <section class="Answers">
+            <article class="Container-Anwers">
+                <div class="Container">
+                    <div>1</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>2</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>3</div>
+                    <span class="Answer"></span>
+                </div>
+                <div class="Container">
+                    <div>4</div>
+                    <span class="Answer"></span>
+                </div>
+            </article>
+            <button type="button" id="SubmitAnswer">Enviar Respuesta</button>
+        </section>
+    </main>
+    <script src="../../Js/Spanish/Scary-es.js"></script>
+</body>
+</html>
