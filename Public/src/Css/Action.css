@@ -33,7 +33,7 @@ main .Question button{
     width: 75%;
     padding: 10px 5px;
     font-size: 1.2em;
-    background-color: #111;
+    background-color: #222;
     color: #ddaa;
     outline: none;
     border: none;
@@ -135,7 +135,7 @@ main .Answers button{
     width: 55%;
     padding: 10px 5px;
     font-size: 1.2em;
-    background-color: #111;
+    background-color: #222;
     color: #ddaa;
     outline: none;
     border: none;
@@ -213,7 +213,7 @@ main .Results .Buttons button{
     width: 100%;
     padding: 10px 5px;
     font-size: 0.9em;
-    background-color: #111;
+    background-color: #222;
     color: #ddaa;
     outline: none;
     border: none;
@@ -299,7 +299,7 @@ main .Results .Buttons button:hover{
     }
     /*Panel de resultado con responsive*/
     main .Results{
-        width: 100%;
+        width: 80%;
         position: relative;
         top: 50px;
     }
