@@ -272,11 +272,15 @@ main .Results .Buttons button:hover{
     main .Answers{
         width: 100%;
     }
+    main .Answers .Container-Anwers{
+        gap: 5px;
+    }
     main .Answers .Container-Anwers .Container{
         width: 95%;
         align-items: center;
         justify-content: center;
-        margin: 7px;
+        margin: 3px;
+
     }
     main .Answers .Container-Anwers .Container span{
         font-size: 1.1em;
