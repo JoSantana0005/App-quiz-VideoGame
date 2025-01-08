@@ -92,7 +92,7 @@ main .Options-videoGame .Aclaration p{
         width: 100%;
         flex-direction: column;
         height: auto;
-        overflow: auto;
+        overflow: hidden;
         scroll-behavior: smooth;
     }
     main::-webkit-scrollbar{

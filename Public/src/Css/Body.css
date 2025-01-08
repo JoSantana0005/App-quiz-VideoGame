@@ -4,7 +4,7 @@
 }
 body{
     background: linear-gradient(to right, #000000, #120000);
-    overflow: hidden;
+    overflow: auto;
     color: var(--FontColor);
 }
 *{
