@@ -264,10 +264,10 @@ main .Results .Buttons button:hover{
         width: 100%;
     }
     main .Question article span{
-        font-size: 1.9em;
+        font-size: 1.2em;
     }
     main .Question article p{
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     main .Answers{
         width: 100%;
@@ -277,8 +277,12 @@ main .Results .Buttons button:hover{
         align-items: center;
     }
     main .Answers .Container-Anwers .Container span{
-        font-size: 1.5em;
-        letter-spacing: 2.4px;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        max-width: 300px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
     main .Answers button{
         width: 75%;
