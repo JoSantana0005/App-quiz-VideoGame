@@ -310,7 +310,7 @@ main .Results .Buttons button:hover{
         font-size: 1.2em;
     }
     main .Results div span{
-        font-size: 1.4em;
+        font-size: 1.9em;
     }
     main .Results .Buttons{
         width: 100%;
@@ -318,6 +318,6 @@ main .Results .Buttons button:hover{
         padding: 10px;
     }
     main .Results .Buttons button{
-        padding: 8px 3px;
+        padding: 12px 3px;
     }
 }
