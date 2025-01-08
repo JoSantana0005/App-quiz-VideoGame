@@ -77,7 +77,7 @@ function PanelResult(){
     })
 }
 // Conexion del Json
-const Action = fetch("../../../JSON/Action.json").then(
+const Action = fetch("../../../JSON/English/Action.json").then(
     respuesta => {
         try{
             if(respuesta.ok){
@@ -117,9 +117,9 @@ const Action = fetch("../../../JSON/Action.json").then(
                             element.classList.remove('selected');
                         })
                     }
-                 }
-                    selectedAnswerIndex = cont;
-                    element.classList.toggle('selected');
+                }
+                selectedAnswerIndex = cont;
+                element.classList.toggle('selected');
              });
          });
          // Evento para el botón de la respuesta
