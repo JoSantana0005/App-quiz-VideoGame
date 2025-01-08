@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "¿Cuál es el objetivo principal en 'StarCraft'?",
+            "answers": [
+                "Construir una civilización",
+                "Dominar el espacio",
+                "Destruir enemigos",
+                "Reunir recursos"
+            ],
+            "correct_answer": 2
+        },
+        {
+            "question": "¿En qué juego de estrategia gestionas una ciudad y sus recursos?",
+            "answers": [
+                "SimCity",
+                "Civilization",
+                "Age of Empires",
+                "Total War"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el nombre del juego de estrategia por turnos donde los jugadores controlan civilizaciones a lo largo de la historia?",
+            "answers": [
+                "Civilization",
+                "Warcraft",
+                "Command & Conquer",
+                "Heroes of Might and Magic"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de estrategia en tiempo real está ambientado en un mundo de fantasía y presenta razas como orcos y humanos?",
+            "answers": [
+                "Warcraft III",
+                "StarCraft II",
+                "Age of Empires II",
+                "Total War: Warhammer"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego construyes y gestionas un imperio en tiempos antiguos?",
+            "answers": [
+                "Age of Empires",
+                "Civilization",
+                "Rise of Nations",
+                "Anno 1800"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el objetivo principal en 'Total War'?",
+            "answers": [
+                "Gestionar recursos",
+                "Luchar en batallas épicas",
+                "Construir ciudades",
+                "Explorar el mundo"
+            ],
+            "correct_answer": 1
+        },
+        {
+            "question": "¿Qué juego de estrategia se centra en la construcción de mazos y batallas por turnos?",
+            "answers": [
+                "Slay the Spire",
+                "Hearthstone",
+                "Magic: The Gathering Arena",
+                "Gwent"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego de estrategia gestionas una colonia en un planeta alienígena?",
+            "answers": [
+                "Surviving Mars",
+                "Farming Simulator",
+                "Anno 2205",
+                "Planetbase"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el nombre del juego de estrategia en tiempo real basado en la Segunda Guerra Mundial?",
+            "answers": [
+                "Company of Heroes",
+                "Call of Duty",
+                "Battlefield",
+                "Medal of Honor"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de estrategia se centra en la gestión de recursos y la construcción de bases en un entorno de supervivencia?",
+            "answers": [
+                "Factorio",
+                "Minecraft",
+                "Terraria",
+                "Don't Starve"
+            ],
+            "correct_answer": 0
+        }
+    ]
+}

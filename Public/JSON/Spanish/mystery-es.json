@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "¿En qué juego asumes el papel de un detective llamado 'Hercule Poirot'?",
+            "answers": [
+                "Agatha Christie: Los asesinatos del ABC",
+                "L.A. Noire",
+                "Sherlock Holmes: Crímenes y Castigos",
+                "La desaparición de Ethan Carter"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el objetivo principal en 'El regreso del Obra Dinn'?",
+            "answers": [
+                "Resolver un misterio de asesinato",
+                "Encontrar un tesoro perdido",
+                "Escapar de una isla",
+                "Investigar un naufragio"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego se centra en investigar un asesinato en una mansión?",
+            "answers": [
+                "Clue: El juego de misterio clásico",
+                "Murdered: Soul Suspect",
+                "The Last Express",
+                "The Wolf Among Us"
+            ],
+            "correct_answer": 1
+        },
+        {
+            "question": "¿En qué juego controlas a un periodista llamado 'Ethan Carter'?",
+            "answers": [
+                "La desaparición de Ethan Carter",
+                "Gone Home",
+                "What Remains of Edith Finch",
+                "Firewatch"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el nombre del juego donde debes resolver el misterio de un pueblo desaparecido?",
+            "answers": [
+                "Oxenfree",
+                "Night in the Woods",
+                "The Silent Age",
+                "The Last Door"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de misterio está basado en las obras de Edgar Allan Poe?",
+            "answers": [
+                "The Raven: Legado de un maestro ladrón",
+                "The Last Express",
+                "Sherlock Holmes: La hija del diablo",
+                "The Black Mirror"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego debes resolver el misterio de un asesinato en un tren?",
+            "answers": [
+                "Asesinato en el Orient Express",
+                "Agatha Christie: Los asesinatos del ABC",
+                "The Last Express",
+                "Train Valley"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el objetivo principal en 'Her Story'?",
+            "answers": [
+                "Resolver un caso de asesinato",
+                "Escapar de un lugar",
+                "Investigar un robo",
+                "Encontrar un tesoro"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de misterio tiene lugar en una isla desierta y tiene elementos de horror?",
+            "answers": [
+                "The Witness",
+                "The Secret of Monkey Island",
+                "The Forest",
+                "Dead Island"
+            ],
+            "correct_answer": 2
+        },
+        {
+            "question": "¿En qué juego controlas a un detective llamado 'Sherlock Holmes'?",
+            "answers": [
+                "Sherlock Holmes: Crímenes y Castigos",
+                "L.A. Noire",
+                "The Wolf Among Us",
+                "Danganronpa"
+            ],
+            "correct_answer": 0
+        }
+    ]
+}

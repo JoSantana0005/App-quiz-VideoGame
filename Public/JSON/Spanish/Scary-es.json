@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "¿Quién es el protagonista de 'Resident Evil 2'?",
+            "answers": [
+                "Leon S. Kennedy",
+                "Chris Redfield",
+                "Jill Valentine",
+                "Claire Redfield"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego tienes que escapar de un manicomio lleno de criaturas aterradoras?",
+            "answers": [
+                "Outlast",
+                "Amnesia: The Dark Descent",
+                "Silent Hill 2",
+                "Fatal Frame"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de horror tiene lugar en un pueblo llamado Silent Hill?",
+            "answers": [
+                "Silent Hill",
+                "Resident Evil",
+                "Dead Space",
+                "Alan Wake"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego controlas a un niño llamado 'Daniel' que explora un castillo oscuro?",
+            "answers": [
+                "Amnesia: The Dark Descent",
+                "Little Nightmares",
+                "Layers of Fear",
+                "Soma"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el objetivo principal en 'Outlast'?",
+            "answers": [
+                "Sobrevivir y escapar",
+                "Resolver acertijos",
+                "Encontrar tesoros",
+                "Investigar un crimen"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de horror psicológico sigue la historia de un escritor llamado 'Alan Wake'?",
+            "answers": [
+                "Alan Wake",
+                "The Evil Within",
+                "Dead Space",
+                "Resident Evil"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego tienes que enfrentarte a una entidad conocida como 'The Babadook'?",
+            "answers": [
+                "The Babadook: The Game",
+                "Little Nightmares",
+                "Layers of Fear",
+                "The Evil Within"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el nombre del juego donde los jugadores deben sobrevivir en una casa embrujada?",
+            "answers": [
+                "Phasmophobia",
+                "Dead by Daylight",
+                "Resident Evil 7",
+                "Outlast"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de horror está basado en la serie de películas 'Saw'?",
+            "answers": [
+                "Saw: The Video Game",
+                "Dead Space",
+                "Resident Evil",
+                "Until Dawn"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego controlas a un grupo de amigos que deben sobrevivir una noche en una cabaña?",
+            "answers": [
+                "Until Dawn",
+                "The Forest",
+                "Friday the 13th",
+                "Dead by Daylight"
+            ],
+            "correct_answer": 0
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "¿Quién es el protagonista de 'The Legend of Zelda'?",
+            "answers": [
+                "Link",
+                "Zelda",
+                "Ganon",
+                "Navi"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego exploras la isla de 'Myst'?",
+            "answers": [
+                "Myst",
+                "Riven",
+                "The Witness",
+                "Journey"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el objetivo principal en 'Uncharted: Drake's Fortune'?",
+            "answers": [
+                "Encontrar un tesoro perdido",
+                "Salvar a una princesa",
+                "Escapar de un laberinto",
+                "Resolver un misterio"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego presenta a un personaje llamado 'Lara Croft'?",
+            "answers": [
+                "Tomb Raider",
+                "Assassin's Creed",
+                "Prince of Persia",
+                "God of War"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego de aventuras se encuentra el mundo de 'Hyrule'?",
+            "answers": [
+                "The Legend of Zelda",
+                "Final Fantasy",
+                "Dark Souls",
+                "Skyrim"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el nombre del protagonista en 'The Last Guardian'?",
+            "answers": [
+                "Trico",
+                "Ico",
+                "Shadows of the Colossus",
+                "Yorda"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de aventuras se centra en explorar un mundo abierto y resolver acertijos?",
+            "answers": [
+                "The Witness",
+                "Firewatch",
+                "Life is Strange",
+                "Grim Fandango"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego controlas a una joven llamada 'Max Caulfield'?",
+            "answers": [
+                "Life is Strange",
+                "The Walking Dead",
+                "Heavy Rain",
+                "Beyond: Two Souls"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el objetivo principal en 'Grim Fandango'?",
+            "answers": [
+                "Escapar del inframundo",
+                "Resolver un misterio",
+                "Encontrar un tesoro",
+                "Salvar a un amigo"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de aventuras tiene lugar en un mundo de fantasía lleno de criaturas mágicas?",
+            "answers": [
+                "Ni no Kuni",
+                "Final Fantasy",
+                "Dark Souls",
+                "The Witcher"
+            ],
+            "correct_answer": 0
+        }
+    ]
+}

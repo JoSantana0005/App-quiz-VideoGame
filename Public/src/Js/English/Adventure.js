@@ -77,7 +77,7 @@ function PanelResult(){
     })
 }
 // Conexion del Json
-const Action = fetch("../../../JSON/English/Action.json").then(
+const Action = fetch("../../../JSON/English/Adventure.json").then(
     respuesta => {
         try{
             if(respuesta.ok){

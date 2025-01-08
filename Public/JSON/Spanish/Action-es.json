@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "¿Quién es el protagonista de la serie 'Halo'?",
+            "answers": [
+                "Master Chief",
+                "Marcus Fenix",
+                "Dante",
+                "Sam Fisher"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego controlas a un asesino llamado Ezio Auditore?",
+            "answers": [
+                "Assassin's Creed II",
+                "Hitman",
+                "Tomb Raider",
+                "Far Cry"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el nombre del protagonista en 'God of War'?",
+            "answers": [
+                "Kratos",
+                "Lara Croft",
+                "Link",
+                "Cloud Strife"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego presenta a un personaje llamado 'Doom Slayer'?",
+            "answers": [
+                "Doom",
+                "Wolfenstein",
+                "Halo",
+                "Call of Duty"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego de acción se encuentra la ciudad de Rapture?",
+            "answers": [
+                "Bioshock",
+                "Fallout",
+                "Borderlands",
+                "Half-Life"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el objetivo principal en 'Call of Duty'?",
+            "answers": [
+                "Sobrevivir en un mundo abierto",
+                "Completar misiones militares",
+                "Resolver acertijos",
+                "Construir una civilización"
+            ],
+            "correct_answer": 1
+        },
+        {
+            "question": "¿Qué juego de acción está ambientado en un mundo post-apocalíptico lleno de zombis?",
+            "answers": [
+                "The Last of Us",
+                "Resident Evil",
+                "Dead Rising",
+                "Dying Light"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿En qué juego puedes jugar como un guerrero llamado 'Geralt de Rivia'?",
+            "answers": [
+                "The Witcher",
+                "Dark Souls",
+                "Skyrim",
+                "Assassin's Creed"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Cuál es el nombre del juego donde los jugadores luchan en un campo de batalla con héroes únicos?",
+            "answers": [
+                "Overwatch",
+                "Fortnite",
+                "PUBG",
+                "Apex Legends"
+            ],
+            "correct_answer": 0
+        },
+        {
+            "question": "¿Qué juego de acción se centra en explorar un mundo abierto y recolectar recursos?",
+            "answers": [
+                "Minecraft",
+                "GTA V",
+                "Red Dead Redemption 2",
+                "Assassin's Creed Valhalla"
+            ],
+            "correct_answer": 0
+        }
+    ]
+}
