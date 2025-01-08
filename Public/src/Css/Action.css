@@ -283,7 +283,7 @@ main .Results .Buttons button:hover{
         letter-spacing: 2px;
         max-width: 300px;
         white-space: wrap;
-        padding: 15px 20px;
+        padding: 5px 20px;
         text-overflow: ellipsis;
         overflow: hidden;
     }
