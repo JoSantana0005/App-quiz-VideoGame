@@ -280,7 +280,7 @@ main .Results .Buttons button:hover{
         font-size: 1.3em;
         letter-spacing: 2px;
         max-width: 300px;
-        white-space: nowrap;
+        white-space: wrap;
         text-overflow: ellipsis;
         overflow: hidden;
     }
