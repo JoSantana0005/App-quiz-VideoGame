@@ -273,7 +273,7 @@ main .Results .Buttons button:hover{
         width: 100%;
     }
     main .Answers .Container-Anwers{
-        gap: 5px;
+        gap: 3px;
     }
     main .Answers .Container-Anwers .Container{
         width: 95%;
@@ -293,6 +293,7 @@ main .Results .Buttons button:hover{
     }
     main .Answers button{
         width: 75%;
+        margin-bottom: 20px;
     }
 
 }
