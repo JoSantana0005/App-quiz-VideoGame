@@ -92,6 +92,15 @@ main .Options-videoGame .Aclaration p{
         width: 100%;
         flex-direction: column;
         height: auto;
+        overflow: auto;
+        scroll-behavior: smooth;
+    }
+    main::-webkit-scrollbar{
+        background-color: transparent;
+        width: 8px;
+    }
+    main::-webkit-scrollbar-thumb{
+        background-color: #fff;
     }
     main .Welcome--quiz{
         width: 100%;
