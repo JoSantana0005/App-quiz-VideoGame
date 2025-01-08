@@ -77,7 +77,7 @@ function PanelResult(){
     })
 }
 // Conexion del Json
-const Action = fetch("../../../JSON/strategy.json").then(
+const Action = fetch("../../../JSON/Action.json").then(
     respuesta => {
         try{
             if(respuesta.ok){
@@ -107,15 +107,21 @@ const Action = fetch("../../../JSON/strategy.json").then(
          // Evento para el contenedor de respuestas
          ContainerAnswer.forEach((element, cont) => {
              element.addEventListener('click', () => {
-                 selectedAnswerIndex = cont;  
-                 if(element.className == 'selected'){
-                    element.classList.remove('selected');
-                 }else{
-                    element.classList.toggle('selected');
+                 if(selectedAnswerIndex !== null){
+                    if(element.classList.contains('selected')){
+                        element.classList.remove('selected');
+                        selectedAnswerIndex = null;
+                        return;
+                    }else{
+                        ContainerAnswer.forEach((element) =>{
+                            element.classList.remove('selected');
+                        })
+                    }
                  }
+                    selectedAnswerIndex = cont;
+                    element.classList.toggle('selected');
              });
          });
-     
          // Evento para el botón de la respuesta
          SubmitAnswer.addEventListener('click', () => {
              if (selectedAnswerIndex === null) {
