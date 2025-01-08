@@ -14,15 +14,34 @@ main .Welcome--quiz{
     flex-flow: column wrap;
     gap: 5px;
 }
+main .Welcome--quiz a{
+    font-size: 1.3em;
+    display: flex;
+    border-bottom: 1px solid #eee;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: .1s linear;
+}
+main .Welcome--quiz a:hover{
+    color: #ddaa;
+    background-color: #222;
+
+}
 main .Welcome--quiz h1{
-    font-size: 2.5em;
+    font-size: 1.9em;
     letter-spacing: 1px;
     font-weight: 500;
 }
 main .Welcome--quiz p{
     font-size: 1.2em;
     letter-spacing: 1px;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 main .Welcome--quiz img{
     margin-top: 40px;
@@ -113,14 +132,17 @@ main .Options-videoGame .Aclaration p{
         font-size: 1.8em;
         margin: 10px 0;
     }
+    main .Welcome--quiz a{
+        width: 100%;
+    }
     main .Welcome--quiz p{
         font-size: 1em;
         margin-top: 10px;
     }
     main .Welcome--quiz img{
         width: 100%;
-        margin-bottom: 25px;
         height: auto;
+        margin-bottom: 5px;
     }
     main .Options-videoGame{
         width: 100%;
